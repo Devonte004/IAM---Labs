@@ -23,7 +23,7 @@ The goal of this portfolio is to demonstrate practical IAM administration, gover
 
 # Labs
 
-## Lab 01 - Idnetity Lifecycle Management
+## Lab 01 - Identity Lifecycle Management
 
 Objective
 
