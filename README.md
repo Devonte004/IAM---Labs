@@ -8,7 +8,7 @@ The goal of this portfolio is to demonstrate practical IAM administration, gover
 
 ---
 
-##Technologies Used
+## Technologies Used
 
 * Microsoft Entra ID
 * Conditional Access
