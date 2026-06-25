@@ -20,3 +20,18 @@ The goal of this portfolio is to demonstrate practical IAM administration, gover
 * Security Groups
 * Administrative Units
 * Role-Based Access Controls (RBAC)
+
+# Labs
+
+## Lab 01 - Idnetity Lifecycle Management
+
+Objective
+
+Create and manage user identities with Microsoft Entra ID.
+
+Skill Demonstrated
+
+* User provisioning
+* User management
+* Group management
+* Identity administration
