@@ -1,0 +1,114 @@
+# Lab 02 - Adminstrative Roles and RBAC
+
+## Overview
+
+This lab demonstrates Role-Based Access Controls (RBAC) and delegated administration within Microsoft Entra ID.
+
+**Jenkins Co.**, requires different administrative permissions for employees based on their job responsibilites. Administrative roles were assigned according to the principle of least privilege, ensuring users receive only the necessary access to perform their duties.
+
+---
+
+## Objectives
+
+- Create administrative user accounts
+- Assign Microsoft Entra administrative roles
+- Implement Role-Based Access Control (RBAC)
+- Apple least-privilege access principles
+- Document administrative role assigments
+- Demonstrate delegated adminstration concepts
+
+---
+
+## Business Scenario
+
+Jenkins Co. requires multiple levels of adminstrative access within its Identity and Access Management (IAM) environment.
+
+Different employees are responsible for different functions, including password management, user administration, security monitoring, and tenant visibility. Rather than granting full administrative access to all users, permissions are delegated using built-in Microsoft Entra roles.
+
+---
+
+## Administrative Users
+
+| User | Department | Group | Administrative Role |
+|--------|--------|--------|--------|
+| Jackie Dent | IT | IT-Admins | Password Administrator |
+| Rose Scriven | IT | IT-Admins | User Administrator |
+| Sherrie Scriven | Security | Security-Team | Security Reader |
+| Jaelyn Jenkins | IT Management | Management | Global Reader |
+
+---
+
+## Administrative Roles Implemented |
+
+### Password Administrator
+**Assigned to:** Jackie Dent
+
+Responsibilities:
+- Reset Passwords for users
+- Support account recovery operations
+- Perform help desk identity functions
+
+### User Administrator
+**Assigned to:** Rose Scriven
+
+Responsibilities
+- Create and manage user accounts
+- Manage group memberships
+- Maintain identity records
+
+### Security Reader
+**Assigned to:** Sherrie Scriven
+
+Responsibilities
+- Review security information
+- Monitor security-related events
+- Investigate security issues without modification privileges
+
+### Global Reader
+**Assigned to:** Jaelyn Jenkins
+
+Responsibilities
+- View tenant configuration and settings
+- Audit identity infrastructure
+- Maintain visibility without administrative control
+
+---
+
+## Security Analysis
+
+This lab demonstrates the principle of least privilege by assigning only the permissions required for each job function.
+
+Administrative responsibilities were separated across multiple users to reduce risk and improve accountability. Users were assigned both security groups and Microsoft Entra administrative roles to support access management and delegated administration requirements.
+
+---
+
+## Key Concepts Demonstrated
+
+- Microsoft Entra ID Administration
+- Role-Based Access Control (RBAC)
+- Least Privilege
+- Delegated Administration
+- Administrative Role Assignment
+- Security Gropu Management
+- Identity Governance Fundamentals
+
+---
+
+## Evidence
+
+### Security Groups
+![Security Groups](groups-page.png)
+
+### Jackie Dent - Password Administrator
+![Jackie Dent Role](jackie-dent-role.png)
+
+### Rose Scriven - User Administrator
+![Rose Scriven Role](rose-scriven-role.png)
+
+### Sherrie Scriven - Security Reader
+![Sherrie Scriven Role](sherrie-scriven-role.png)
+
+### Jaelyn Jenkins - Global Reader
+![Jaelyn Jenkins Role](jaelyn-jenkins-role.png)
+
+---
