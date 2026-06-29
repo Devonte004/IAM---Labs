@@ -35,3 +35,16 @@ Skill Demonstrated
 * User management
 * Group management
 * Identity administration
+
+## Lab 02 - Administrative Roles and RBAC
+
+Objective
+
+Implement Role-Based Access Control (RBAC) using Microsoft Entra administrative roles.
+
+Skill Demonstrated
+
+* Administrative role assignments
+* Least privilege administration
+* Role management
+* RBAC implementation
